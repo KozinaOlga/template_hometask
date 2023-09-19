@@ -1,0 +1,32 @@
+
+body {
+    background-image: url(/img/background.png);
+    height: 732px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header {
+    height: 70px;
+    padding: 40px 0;
+
+}
+
+
+.header__container {
+    display: flex;
+    width: 1200px;
+}
+
+
+.header__navigation {
+    display: flex;
+    justify-content: flex-end;
+    width: 1200px;
+}
+
+.navigation__phone {
+    font-weight: 400;
+    font-size: 23.85px;
+    line-height: 27.95px;
+}
