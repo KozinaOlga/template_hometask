@@ -2,9 +2,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    padding-top: 14px;
     max-width: 990px;
     min-height: 384px;
+    gap: 35px;
 }
 
 .present__title {
@@ -12,19 +13,15 @@
     font-weight: 900;
     font-size: 52px;
     line-height: 60.94px;
-    margin: 0;
-    margin-bottom: 35px;
     color: #FFFFFFDB;
-
-
+    margin: 0;
 }
 
 .present__par {
     text-align: center;
     line-height: 30.94px;
-    margin-bottom: auto;
     color: #FFFFFFBF;
-
+    margin-bottom: auto;
 }
 
 .present__btn {
