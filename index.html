@@ -75,32 +75,53 @@
         </section>
 
         <section class="questions">
-            <div class="container">
+            <div class="container questions__container">
                 <h1 class="questions__title">Остались вопросы?</h1> 
                 <p class="questions__text">Оставьте номер телефона, и мы перезвоним вам</p>
 
                 <fieldset class="questions__callback">
-                    <label>
-                        <input type="text" name="text" placeholder="Ваше имя">
+                    <label class="questions__lable">
+                        <input class="questions__input" type="text" name="text" placeholder="Ваше имя">
                     </label>
 
-                    <label>
-                        <input type="tel" name="phone" pattern="\d" placeholder="Телефон">
+                    <label class="questions__lable">
+                        <input class="questions__input" type="tel" name="phone" pattern="\d" placeholder="Телефон">
                     </label>
 
-                    <label>
-                        <input type="text" name="mail" placeholder="E-mail">
+                    <label class="questions__lable">
+                        <input class="questions__input" type="text" name="mail" placeholder="E-mail">
                     </label>
                 </fieldset>
 
                 <button class="questions__btn">Позвоните мне</button>
+                
+                <a href="#" class="questions__container-agree">Я даю своё <span class="questions__container-underline">согласие</span> на обратотку персональных данных</a>
 
             </div>
         </section>
 
+        <footer class="footer">
 
+            <section class="footer">
+                <div class="container footer__container">
 
-
+                    <img class="footer__logo" src="./img/logo.svg" alt="Логотип">
+    
+                    <div class="footer__navigation">
+                        <div class=" footer__navigation-column">
+                            <ul class="footer__list">
+                                <li class="footer__item footer__item-text">© 2022 XXXcompany. Все права защищены.</li>
+                                <li class="footer__item footer__item-text-width">Сделано в Ивановым Иваном</li>
+                                <li class="footer__item">
+                                    <a class="footer__phone" href="tel:+79625561234">+7 (962) 556 - 1234</a>
+                                </li>
+                            </ul>
+                                <button class="footer__btn">Перезвоните мне</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
     </main>
     
 </body>

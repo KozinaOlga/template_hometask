@@ -11,12 +11,14 @@
     line-height: 41.02px;
     text-align: center;
     width: 884px;
+    margin-bottom: 25px;
 }
 
 .present-two__par {
     font-weight: 500;
     line-height: 25.78px;
     text-align: center;
+    margin-bottom: 35px;
 }
 
 .present-two__par:after {
@@ -44,18 +46,19 @@
     line-height: 25.31px;
     text-align: center;
     width: 884px;
+    margin-bottom: 50px;
 }
 
 .present-two__circle {
     display: flex;
+    justify-content: center;
+    /* gap: 50px; */
     justify-content: space-around;
     /* counter-reset: list; */
     counter-reset: numbers;
     width: 934px;
-    border: 2px solid red; 
     text-align: center;
-    height: 195px;
-
+    min-height: 195px;
 }
 
 .present-two__circle-color {
@@ -67,7 +70,6 @@
     height: 122px;
     border-radius: 50%
 }
-
 
 .present-two__circle-number::after {
     display: block;
@@ -83,19 +85,14 @@
     text-align: center;
 }
 
-
-
 .present-two__circle-text {
-    display: flex;
+    text-align: center;
     font-size: 20px;
     font-weight: 500;
-    line-height: 28.13px;
-    text-align: center;
+    line-height: 28px;
+    min-width: 196px;
     color: #383A4C;
-    align-items: flex-end;
     transform: translateY(100px);
-    width: 196px;
-    border: 3px solid green;
 }
 
 /* .present-two__circle-two:after {
