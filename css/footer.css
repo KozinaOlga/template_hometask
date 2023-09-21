@@ -10,14 +10,13 @@
 
 .footer__container {
     display: flex;
-    width: 1200px;
+    max-width: 1200px;
 }
-
 
 .footer__list {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     width: 1113px;
     height: 68px;
 }
@@ -45,9 +44,8 @@
 }
 
 .footer__phone {
-    font-weight: 400;
-    font-size: 23.85px;
-    line-height: 27.95px;
+    font-size: 24px;
+    line-height: 28px;
     color: #fff;
 }
 
@@ -56,4 +54,28 @@
     line-height: 18.75px;
     color: #fff;
     text-decoration: underline;
+}
+
+@media all and (max-width: 1024px) {
+
+    .footer__container {
+        max-width: 964px;
+    }
+
+    .footer__list {
+        width: 885px;
+        height: 60px;
+    }
+
+    .footer__logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .footer__phone {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+
 }

@@ -21,7 +21,7 @@
     text-align: center;
     line-height: 30.94px;
     color: #FFFFFFBF;
-    margin-bottom: auto;
+    margin-bottom: 90px;
 }
 
 .present__btn {
@@ -35,6 +35,23 @@
     color: #fff;
     background-color: #15A9CB;
     box-shadow: 0px 4px 25px 0px #15A9CB4D 30%;
+}
 
+@media all and (max-width: 1024px) {
+    .present__container {
+        gap: 0;
+    }
 
+    .present__title {
+        font-size: 40px;
+        line-height: 47px;
+        margin-bottom: 27.57px;
+    }
+
+    .present__par {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25.31px;
+        margin-bottom: 60.43px;
+    }
 }

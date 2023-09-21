@@ -95,35 +95,46 @@
     transform: translateY(100px);
 }
 
-/* .present-two__circle-two:after {
-    counter-increment: list;
-    content: counter(list, decimal-leding);
-    position: absolute;
-    font-weight: 500;
-    font-size: 57px;
-    line-height: 57px;
-    color: #fff;
+@media all and (max-width: 1024px) {
+    .present-two__title {
+        font-size: 32px;
+        line-height: 37.5px;
+        margin-bottom: 23px;
+    }
+
+    .present-two__par {
+        font-size: 20px;
+        line-height: 23.44px;
+        margin-bottom: 33px;
+    }
+
+    .present-two__par_small {
+        font-size: 16px; 
+        line-height: 22.5px;
+    }
+
+    .present-two__circle-color {
+        width: 104px;
+        height: 104px;
+    }
+
+    .present-two__circle-number::after {
+        font-size: 52px;
+        line-height: 73px;
+    }
+
+    .present-two__circle-text {
+        font-size: 18px;
+        line-height: 25px;
+        min-width: 180px;
+    }
+
+    .questions__container-agree {
+        font-size: 17px;
+        line-height: 20px;
+    }
 }
 
-.present-two__circle-three:after {
-    counter-increment: list;
-    content: counter(list, decimal-leding);
-    position: absolute;
-    font-weight: 500;
-    font-size: 57px;
-    line-height: 57px;
-    color: #fff;
-}
-
-.present-two__circle-four:after {
-    counter-increment: list;
-    content: counter(list, decimal-leding);
-    position: absolute;
-    font-weight: 500;
-    font-size: 57px;
-    line-height: 57px;
-    color: #fff;
-} */
 
 
 

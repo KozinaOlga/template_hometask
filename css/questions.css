@@ -34,6 +34,7 @@
     border: none;
     gap: 20px;
     padding: 0;
+    margin-bottom: 50px;
 }
 
 label.questions__lable {
@@ -51,6 +52,7 @@ label.questions__lable {
 
 .questions__input::placeholder {
     position: absolute;
+    top: 10px;
     left: 30px;
     color: #FFFFFF80;
     line-height: 26px;
@@ -76,4 +78,28 @@ label.questions__lable {
 .questions__container-underline {
     text-decoration: underline;
     color: #4A76A8;
+}
+
+@media all and (max-width: 1024px) {
+    .questions__title {
+        font-size: 32px;
+        line-height: 37.5px;
+        margin-bottom: 16px;
+    }
+
+    .questions__text {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .questions__input {
+        width: 377px;
+        height: 39px;
+    }
+
+    .questions__input::placeholder {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    
 }

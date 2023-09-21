@@ -1,14 +1,14 @@
 
 .present {
     background-image: url(/img/background.png);
-    height: 732px;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .header__container {
     display: flex;
-    width: 1200px;
+    justify-content: space-between;
+    max-width: 1200px;
     margin-bottom: 85px;
 }
 
@@ -16,14 +16,12 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    width: 1200px;
 }
 
 .navigation__phone {
     display: flex;
-    font-weight: 400;
-    font-size: 23.85px;
-    line-height: 27.95px;
+    font-size: 24px;
+    line-height: 28px;
     color: #fff;
 }
 
@@ -33,4 +31,34 @@
     line-height: 18.75px;
     color: #fff;
     text-decoration: underline;
+}
+
+@media all and (max-width: 1024px) {
+    .present {
+        background-size: cover;
+        width: 1024px;
+        height: 528px;
+
+    }
+
+    .header__container {
+        max-width: 964px;
+        margin-bottom: 70px;
+    }
+
+    .header__logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .navigation__phone {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .navigation__btn {
+        font-size: 13px;
+        line-height: 16px;
+
+    }
 }
