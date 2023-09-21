@@ -96,9 +96,17 @@
 }
 
 @media all and (max-width: 1024px) {
+    
+    .present-two__container {
+        max-width: 812px;
+    }
+    
+    
     .present-two__title {
+        width: 100%;
         font-size: 32px;
         line-height: 37.5px;
+        margin: 0;
         margin-bottom: 23px;
     }
 
@@ -109,8 +117,13 @@
     }
 
     .present-two__par_small {
+        width: 100%;
         font-size: 16px; 
         line-height: 22.5px;
+    }
+
+    .present-two__circle {
+        max-width: 870px;
     }
 
     .present-two__circle-color {

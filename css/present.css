@@ -39,6 +39,7 @@
 
 @media all and (max-width: 1024px) {
     .present__container {
+        max-width: 780px;
         gap: 0;
     }
 
