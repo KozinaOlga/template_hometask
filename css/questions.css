@@ -81,6 +81,10 @@ label.questions__lable {
 }
 
 @media all and (max-width: 1024px) {
+    .questions {
+        background-size: 100% 100%;
+    }
+    
     .questions__title {
         font-size: 32px;
         line-height: 37.5px;

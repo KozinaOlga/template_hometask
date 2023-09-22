@@ -37,14 +37,21 @@
     text-decoration: underline;
 }
 
+@media (max-width: 1200px) {
+    .header__container {
+
+    }
+}
+
+
 @media all and (max-width: 1024px) {
     .present {
-        background-size: cover;
+        background-size: 100% 100%;
     }
 
     .header__container {
+        max-width: 885px;
         flex-wrap: wrap;
-        max-width: 964px;
         margin-bottom: 70px;
     }
 
@@ -61,5 +68,12 @@
     .navigation__btn {
         font-size: 13px;
         line-height: 16px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .header__container {
+        margin-bottom: 30px;
     }
 }

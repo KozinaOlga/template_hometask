@@ -11,6 +11,7 @@
 .footer__container {
     display: flex;
     max-width: 1200px;
+    border: 1px solid green;
 }
 
 .footer__list {
@@ -19,6 +20,7 @@
     align-items: flex-end;
     width: 1113px;
     height: 68px;
+    border: 1px solid red;
 }
 
 .footer__item-text {
@@ -51,7 +53,7 @@
 
 .footer__btn {
     font-size: 16px;
-    line-height: 18.75px;
+    line-height: 18px;
     color: #fff;
     text-decoration: underline;
 }
@@ -63,7 +65,7 @@
     }
 
     .footer__list {
-        width: 885px;
+        max-width: 886px;
         height: 60px;
     }
 
