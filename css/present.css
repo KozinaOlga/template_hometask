@@ -7,7 +7,6 @@
     min-height: 384px;
     gap: 35px;
     padding: 0;
-    padding-top: 16px;
 }
 
 .present__title {
@@ -17,13 +16,14 @@
     line-height: 60.94px;
     color: #FFFFFFDB;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .present__par {
     text-align: center;
     line-height: 30.94px;
     color: #FFFFFFBF;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 
 .present__btn {
