@@ -51,8 +51,7 @@
 
 .present-two__circle {
     display: flex;
-    justify-content: center;
-    /* gap: 50px; */
+    gap: 50px;
     justify-content: space-around;
     /* counter-reset: list; */
     counter-reset: numbers;
@@ -101,7 +100,6 @@
         max-width: 812px;
     }
     
-    
     .present-two__title {
         width: 100%;
         font-size: 32px;
@@ -148,6 +146,34 @@
     }
 }
 
+@media all and (max-width: 320px) {
+    .present-two__circle {
+        width: 190px;
+        min-height: 1086px;
+    }
+}
+
+@media all and (max-width: 320px) {
+
+    .present-two__circle {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .present-two__par_small {
+        font-size: 12px;
+        line-height: 17px;
+        margin-bottom: 40px;
+        max-width: 290px;
+    }
+
+    .present-two__circle-text {
+        font-size: 18px;
+        line-height: 25px;
+        min-width: 160px;
+    }
+}
 
 
 

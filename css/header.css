@@ -3,6 +3,7 @@
     background-image: url(/img/background.png);
     background-position: center;
     background-repeat: no-repeat;
+    object-fit: cover;
 }
 
 .header__container {
@@ -75,5 +76,35 @@
 @media (max-width: 1000px) {
     .header__container {
         margin-bottom: 30px;
+    }
+}
+
+@media all and (max-width: 320px) {
+
+    .header__container {
+        max-width: 290px;
+    }
+
+    
+    .header__logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .navigation__phone,
+    .navigation__btn {
+        display: none;
+    }
+
+    .header__navigation::after {
+        content: "";
+        display: block;
+        background-image: url(../img/phone.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background-color: #555A7B;
     }
 }

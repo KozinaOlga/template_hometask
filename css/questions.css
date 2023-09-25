@@ -1,8 +1,8 @@
 .questions {
     background-image: url(../img/background-two.png);
-    height: 621px;
     background-position: center;
     background-repeat: no-repeat;
+    object-fit: contain;
 }
 
 .questions__container {
@@ -105,5 +105,57 @@ label.questions__lable {
         font-size: 20px;
         line-height: 23px;
     }
+
+    @media all and (max-width: 320px) {
+        .questions__container {
+            max-width: 100%;
+            object-fit: contain;
+        }
+
+        .questions__title {
+            font-size: 20px;
+            line-height: 23px;
+            margin-bottom: 10px;
+        }
+
+        .questions__text {
+            font-size: 12px;
+            line-height: 14px;
+            margin-bottom: 35px;
+        }
+
+        .questions__input {
+            width: 290px;
+            height: 28px;
+        }
+
+        .questions__input::placeholder {
+            font-size: 14px;
+            line-height: 16px;
+        }
+
+        .questions__btn {
+            font-size: 16px;
+            line-height: 18px;
+            padding: 10px 26px;
+        }
+
+        .questions__container-agree {
+            font-size: 11px;
+            line-height: 13px;
+        }
+
+        .footer__item-text-width {
+            font-size: 12px;
+            line-height: 17;
+        }
+
+        .footer__item-text-width {
+            font-size: 12px;
+            line-height: 17px;
+            order: 1;
+        }
+    }
+    
     
 }

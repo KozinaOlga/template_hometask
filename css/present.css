@@ -27,7 +27,7 @@
 }
 
 .present__btn {
-    width: 200px;
+    max-width: 200px;
     padding: 12px 48px;
     font-weight: 500;
     font-size: 20px;
@@ -62,7 +62,6 @@
 
 @media (max-width: 1000px) {
     .present__container {
-
         min-height: 100%;
     }
     
@@ -70,6 +69,26 @@
         font-size: 35px;
         line-height: 40px;
         margin-bottom: 25px;
+    }
+
+    @media all and (max-width: 320px) {
+        .present__title {
+            font-size: 20px;
+            line-height: 23px;
+            margin-bottom: 23px;
+        }
+
+        .present__par {
+            font-size: 14px;
+            line-height: 27px;
+            margin-bottom: 54px;
+        }
+
+        .present__btn {
+            font-size: 16px;
+            line-height: 18px;
+            padding: 9px 28px;
+        }
     }
 
 
