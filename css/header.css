@@ -1,9 +1,11 @@
+
 .present {
-    background-image: url(/img/background.png);
+    background-image: url(../img/background.png);
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
-    padding-top: 40px;
+    background-size: 1600px 100%;
+    min-height: 732px;
 }
 
 .header__container {
@@ -12,14 +14,13 @@
     flex-wrap: wrap;
     max-width: 1200px;
     margin-bottom: 120px;
+    padding-top: 5px;
 }
 
 .header__navigation {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 8px;
-    border: 1px solid green
 }
 
 .navigation__phone {
@@ -27,6 +28,7 @@
     font-size: 24px;
     line-height: 28px;
     color: #fff;
+    padding-top: 9px;
 }
 
 .navigation__btn {
@@ -72,7 +74,6 @@
     }
 }
 
-
 @media (max-width: 1000px) {
     .header__container {
         margin-bottom: 30px;
@@ -81,11 +82,15 @@
 
 @media all and (max-width: 320px) {
 
+    .present {
+        background-size: auto 100%;
+        background-position: left;
+    }
+
     .header__container {
         max-width: 290px;
     }
 
-    
     .header__logo {
         width: 30px;
         height: 30px;
